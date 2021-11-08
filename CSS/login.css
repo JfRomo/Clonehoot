@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%rem;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    box-shadow: 0 10px rgb(168, 168, 168);
+}
+.idioma{
+    margin-top: 5px;
+    width: 25px;
+    height: 25px;
+    align-self: flex-end;
+}
+.logo{
+    margin-top: 10px;
+    margin-left: 15px;
+    width: 200px;
+}
+#idioma{
+    padding: 2px 10px;
+    border-radius: 15px;
+    background: white;
+    margin: 15px 15px;
+    align-content: center;
+    justify-content: center;
+    box-shadow: 0 3px rgb(204, 203, 203);
+}
+#idioma a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(53, 53, 53)
+}
+
+main{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(233, 233, 233);
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    
+}
+.login-container{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    text-align: left;
+    align-self: center;
+    background-color: white;
+    padding: 10px 30px;
+    width: 450px;
+    min-height: min-content;
+    height: 500px;
+}
+.login-container input{
+    margin-bottom: 10px;
+}
+h1{
+    align-self: center;
+}
+.login-container label{
+    font-weight:bolder ;
+}
+.button{
+    background-color: rgb(129, 129, 129);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;  
+    border-width: 0;
+    width: 207px;
+    height: 33px;
+}
