@@ -1,0 +1,23 @@
+{
+  "rooms": [
+    {
+      "titulo": "Africa",
+      "descripcion": "....",
+      "preguntas": ["Preginta 1", "pregunta 2"],
+      "id": "222"
+    },
+    {
+      "titulo": "Año nuevo",
+      "descripcion": "....",
+      "id": "111"
+    },
+    {
+      "titulo": "Vacaciones",
+      "descripcion": "...."
+    },
+    {
+      "titulo": "Colegio",
+      "descripcion": "...."
+    }
+  ]
+}

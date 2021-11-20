@@ -1,0 +1,28 @@
+{
+  "name": "Clonehoot!",
+  "version": "1.0.0",
+  "description": "Un clon",
+  "main": "index.js",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "dev": "nodemon src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JfRomo/Clonehoot.git"
+  },
+  "keywords": [],
+  "author": "JfRomo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JfRomo/Clonehoot/issues"
+  },
+  "homepage": "https://github.com/JfRomo/Clonehoot#readme"
+}

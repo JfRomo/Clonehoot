@@ -66,6 +66,7 @@ main{
 }
 h1{
     align-self: center;
+    margin-bottom: 20px;
 }
 .login-container label{
     font-weight:bolder ;
@@ -75,9 +76,11 @@ h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.2rem;
     font-weight: bold;
+    align-self: center;
     color: white;
     border-radius: 5px;  
     border-width: 0;
     width: 207px;
     height: 33px;
+    margin: 20px 0px;
 }
